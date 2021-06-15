@@ -1,0 +1,11 @@
+body {
+	background-color: var(--egg);
+}
+
+.progress {
+	margin-bottom: 15px;
+}
+.donations,
+.donations-para {
+	text-align: center;
+}
