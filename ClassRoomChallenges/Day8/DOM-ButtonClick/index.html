@@ -19,22 +19,22 @@
           <h1 class="teamName">Team 1</h1>
           <p>Total Points: <span class="teamPoints">10</span></p>
           <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button" onclick="team1Add()">
+            <button class="btn btn-primary" type="button" onclick="calcutlatePoints(`team1`,1)">
               Add Team 1 Button
             </button>
-            <button class="btn btn-primary" type="button" onclick="team1Subtract()">
+            <button class="btn btn-primary" type="button" onclick="calcutlatePoints(`team1`,-1)">
               Subtract Team 1 Button
             </button>
           </div>
         </div>
         <div class="col">
           <h1 class="teamName">Team 2</h1>
-          <p>Total Points: <span class="teamPoints"></span>>10</span></p>
+          <p>Total Points: <span class="teamPoints"></span>10</span></p>
           <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button">
+            <button class="btn btn-primary" type="button" onclick="calcutlatePoints(`team2`,1)">
               Add Team 2 Button
             </button>
-            <button class="btn btn-primary" type="button">
+            <button class="btn btn-primary" type="button" onclick="calcutlatePoints(`team2`,-1)">
               Subtract Team 2 Button
             </button>
           </div>
