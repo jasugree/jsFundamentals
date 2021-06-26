@@ -1,0 +1,59 @@
+CHALLENGE #1
+
+function nameGrade(name, grade){
+    console.log(`${name} got a ${grade} in social studies`);
+}
+
+nameGrade('Jake',"A+");
+
+
+
+CHALLENGE #2
+
+for( i = 300; i <= 400; i++ ){
+    if(i % 6 === 0 && i % 8 === 0){
+        console.log('Marco Lopez');
+    }else if(i % 6 === 0){
+        console.log('Marcco');
+    } else if (i % 8 === 0){ 
+        console.log('Lopez');
+    } else{
+        console.log(i);
+    }
+}
+
+
+CHALLENGE #3
+
+function findPerimiter(length, width){
+    if (length + length + width + width > 20){
+    console.log(`True: the perimeter is ${length + length + width + width} if the perimeter is over 20`);
+    } else if((length + length + width + width < 20)){
+        console.log(`False: the perimeter is ${length + length + width + width} if the perimeter is under 20`);
+    }else{
+        console.log(`Perimeter is equal to 20`);
+    }
+}
+
+findPerimiter(20,20);
+
+
+CHALLENGE #4
+
+let library ={
+    name: '';
+    address: '',
+    sections: {
+        collection: [
+        {
+            classification: 'Class 1',
+            count: 1,
+            aisle: 'First Aisle',
+            }, 
+        {
+            classification: 'Class 1',
+            count: 2,
+            aisle: 'Second Aisle',
+            }
+            ]};
+}

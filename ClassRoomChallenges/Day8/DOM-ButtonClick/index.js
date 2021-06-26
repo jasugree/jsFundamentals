@@ -26,9 +26,14 @@
 // }
 
 
-
-function calcutlatePoints(teamName, points){
-    if(teamName ="Team 1"){
-        console.log
+function calculatePoints(teamName, points) {
+    let team1PointsNumber = Number(team1Points.innerText);
+    let team2PointsNumber = Number(team2Points.innerText);
+    if (teamName === "team1") {
+      team1PointsNumber = team1PointsNumber + points;
+      team1Points.innerText = team1PointsNumber;
+    } else {
+       team2PointsNumber = team2PointsNumber + points;
+      team2Points.innerText = team2PointsNumber;
     }
-}
+  }
